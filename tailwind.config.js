@@ -6,6 +6,7 @@ module.exports = {
       colors: {
         primary: "#FA9E31", //naranja claro
         secondary: "#FF6200", //naranja obscuro
+        tertiary: "#E2E2E2",
         textColor: {
           heading: "#0A2533",
           body: "#748189",
