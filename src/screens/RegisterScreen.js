@@ -17,9 +17,9 @@ const RegisterScreen = () => {
         style={{ width: "100%", height: "100%", resizeMode: "cover" }}
       />
       <View className="absolute top-0 left-0 right-0 p-4 justify-center">
-        <View className="my-24">
-          <Text className="text-4xl text-white">Registrarse y empieza</Text>
-          <Text className="text-4xl font-bold text-white">a cocinar</Text>
+        <View className="mt-20 mb-16">
+          <Text className="text-3xl text-white">Registrarse y empieza</Text>
+          <Text className="text-3xl font-bold text-white">a cocinar</Text>
         </View>
 
         <View>
@@ -66,7 +66,7 @@ const RegisterScreen = () => {
         </View>
         <View>
           <TouchableOpacity
-            className="rounded-2xl bg-buttons-tertiary-default p-2 w-full mt-16 mb-4 h-11"
+            className="rounded-2xl bg-buttons-tertiary-default p-2 w-full mt-8 mb-4 h-11"
             title="Iniciar Sesión"
             onPress={() => {
               /* lógica de registro */
