@@ -15,48 +15,52 @@ const HomeNavigator = () => {
   return (
     <Tab.Navigator>
       <Tab.Screen
-        name="Home"
+        name="Desayunos"
         component={HomeScreen}
         options={{
           headerShown: false,
-          tabBarIcon: () => <Ionicons name="home" color={"black"} size={24} />,
+          tabBarIcon: () => (
+            <Ionicons name="restaurant" color={"black"} size={24} />
+          ),
         }}
       />
       <Tab.Screen
-        name="Profile"
+        name="Comidas"
         component={ProfileScreen}
         options={{
           headerShown: false,
           tabBarIcon: () => (
-            <Ionicons name="person" color={"black"} size={24} />
+            <Ionicons name="fast-food" color={"black"} size={24} />
           ),
         }}
       />
       <Tab.Screen
-        name="Favorites"
+        name="Cenas"
         component={FavoritesScreen}
         options={{
           headerShown: false,
-          tabBarIcon: () => <Ionicons name="heart" color={"black"} size={24} />,
+          tabBarIcon: () => (
+            <Ionicons name="restaurant" color={"black"} size={24} />
+          ),
         }}
       />
       <Tab.Screen
-        name="Planner"
+        name="Snacks"
         component={PlannerScreen}
         options={{
           headerShown: false,
           tabBarIcon: () => (
-            <Ionicons name="calendar" color={"black"} size={24} />
+            <Ionicons name="fast-food" color={"black"} size={24} />
           ),
         }}
       />
       <Tab.Screen
-        name="Search"
+        name="Perfil"
         component={SearchScreen}
         options={{
           headerShown: false,
           tabBarIcon: () => (
-            <Ionicons name="search" color={"black"} size={24} />
+            <Ionicons name="person" color={"black"} size={24} />
           ),
         }}
       />
