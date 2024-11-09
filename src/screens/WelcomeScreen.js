@@ -1,5 +1,6 @@
 import React from "react";
 import { View, Text, TouchableOpacity, Image } from "react-native";
+import Animated, { useSharedValue, withSpring } from "react-native-reanimated";
 
 const WelcomeScreen = ({ navigation }) => {
   return (

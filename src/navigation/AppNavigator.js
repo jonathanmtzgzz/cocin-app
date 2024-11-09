@@ -4,6 +4,7 @@ import { createStackNavigator } from "@react-navigation/stack";
 import AuthNavigator from "./AuthNavigator";
 import HomeNavigator from "./HomeNavigator";
 import WelcomeScreen from "../screens/WelcomeScreen";
+import RecipeDetailsScreen from "../screens/RecipeDetailsScreen";
 
 const Stack = createStackNavigator();
 
@@ -23,7 +24,12 @@ const AppNavigator = () => {
       <Stack.Screen
         name="Home"
         component={HomeNavigator}
-        options={{ headerShown: true }}
+        options={{ headerShown: false }}
+      />
+      <Stack.Screen
+        name="RecipeDetail"
+        component={RecipeDetailsScreen}
+        options={{ headerShown: false }}
       />
     </Stack.Navigator>
   );

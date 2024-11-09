@@ -1,0 +1,206 @@
+// Datos para el filtro de categorías
+export const categories = [
+  {
+    id: 1,
+    category: "Breakfast",
+  },
+  {
+    id: 2,
+    category: "Lunch",
+  },
+  {
+    id: 3,
+    category: "Dinner",
+  },
+  {
+    id: 4,
+    category: "Snack",
+  },
+];
+
+// Daros para la lista de recetas
+export const recipeList = [
+  {
+    id: "01",
+    name: "Tostadas de Aguacate",
+    Image: require("../assets/imgs/receta-04.jpg"),
+    rating: "4.6",
+    ingredients: ["Pan Integral", "Aguacate", "Huevo", "Tomate", "Cilantro"],
+    time: "10 min",
+    difficulty: "Easy",
+    calories: "300 cal",
+    color: "bg-green-200",
+    description:
+      "Tostadas de pan integral cubiertas con aguacate, huevo pochado, tomate y cilantro.",
+    steps: [
+      "Paso 1: Tostar el pan.",
+      "Paso 2: Machacar el aguacate y untarlo en el pan.",
+      "Paso 3: Colocar el huevo pochado y el tomate picado.",
+      "Paso 4: Añadir cilantro.",
+    ],
+  },
+  {
+    id: "02",
+    name: "Enfrijoladas",
+    Image: require("../assets/imgs/receta-05.jpg"),
+    rating: "4.5",
+    ingredients: ["Tortillas", "Frijoles", "Queso", "Crema", "Cebolla"],
+    time: "20 min",
+    difficulty: "Easy",
+    calories: "400 cal",
+    color: "bg-brown-200",
+    description:
+      "Tortillas bañadas en salsa de frijoles y acompañadas de queso, crema y cebolla.",
+    steps: [
+      "Paso 1: Licuar los frijoles cocidos para hacer la salsa.",
+      "Paso 2: Calentar las tortillas.",
+      "Paso 3: Bañar las tortillas en la salsa de frijoles.",
+      "Paso 4: Servir con queso, crema y cebolla.",
+    ],
+  },
+  {
+    id: "03",
+    name: "Molletes",
+    Image: require("../assets/imgs/receta-06.jpg"),
+    rating: "4.7",
+    ingredients: ["Bolillo", "Frijoles Refritos", "Queso", "Pico de Gallo"],
+    time: "15 min",
+    difficulty: "Easy",
+    calories: "350 cal",
+    color: "bg-yellow-300",
+    description:
+      "Pan bolillo cubierto con frijoles refritos, queso derretido y pico de gallo.",
+    steps: [
+      "Paso 1: Cortar el bolillo por la mitad y tostarlo.",
+      "Paso 2: Untar frijoles refritos en el pan.",
+      "Paso 3: Colocar queso y derretirlo.",
+      "Paso 4: Añadir pico de gallo.",
+    ],
+  },
+  {
+    id: "04",
+    name: "Avena con Frutas",
+    Image: require("../assets/imgs/receta-07.jpg"),
+    rating: "4.8",
+    ingredients: ["Avena", "Leche", "Plátano", "Fresas", "Miel"],
+    time: "10 min",
+    difficulty: "Easy",
+    calories: "250 cal",
+    color: "bg-pink-200",
+    description:
+      "Avena cocida en leche, acompañada de plátano, fresas y un toque de miel.",
+    steps: [
+      "Paso 1: Cocinar la avena con leche.",
+      "Paso 2: Cortar el plátano y las fresas.",
+      "Paso 3: Servir la avena con las frutas y un toque de miel.",
+    ],
+  },
+  {
+    id: "05",
+    name: "Pan Francés",
+    Image: require("../assets/imgs/receta-08.jpg"),
+    rating: "4.9",
+    ingredients: ["Pan", "Huevos", "Leche", "Canela", "Azúcar"],
+    time: "15 min",
+    difficulty: "Easy",
+    calories: "400 cal",
+    color: "bg-brown-300",
+    description:
+      "Rebanadas de pan bañadas en mezcla de huevo y leche, doradas y espolvoreadas con azúcar y canela.",
+    steps: [
+      "Paso 1: Batir los huevos con la leche.",
+      "Paso 2: Remojar las rebanadas de pan en la mezcla.",
+      "Paso 3: Dorar las rebanadas en una sartén.",
+      "Paso 4: Espolvorear con azúcar y canela.",
+    ],
+  },
+  {
+    id: "06",
+    name: "Tamales",
+    Image: require("../assets/imgs/receta-09.jpg"),
+    rating: "4.6",
+    ingredients: ["Masa de Maíz", "Carne", "Hojas de Maíz", "Salsa Roja"],
+    time: "1 hr",
+    difficulty: "Medium",
+    calories: "500 cal",
+    color: "bg-red-300",
+    description:
+      "Tamales de masa de maíz rellenos de carne y salsa roja, envueltos en hojas de maíz y cocidos al vapor.",
+    steps: [
+      "Paso 1: Preparar la masa de maíz.",
+      "Paso 2: Rellenar las hojas de maíz con masa y carne.",
+      "Paso 3: Envolver y cocer al vapor.",
+    ],
+  },
+  {
+    id: "07",
+    name: "Empanadas de Queso",
+    Image: require("../assets/imgs/receta-10.jpg"),
+    rating: "4.5",
+    ingredients: ["Masa para Empanadas", "Queso", "Aceite"],
+    time: "30 min",
+    difficulty: "Medium",
+    calories: "300 cal",
+    color: "bg-yellow-300",
+    description:
+      "Empanadas rellenas de queso, fritas hasta quedar doradas y crujientes.",
+    steps: [
+      "Paso 1: Extender la masa para empanadas.",
+      "Paso 2: Rellenar con queso y cerrar las empanadas.",
+      "Paso 3: Freír hasta dorar.",
+    ],
+  },
+  {
+    id: "08",
+    name: "Quesadillas",
+    Image: require("../assets/imgs/receta-11.jpg"),
+    rating: "4.7",
+    ingredients: ["Tortillas", "Queso", "Jamón", "Aceite"],
+    time: "10 min",
+    difficulty: "Easy",
+    calories: "350 cal",
+    color: "bg-orange-300",
+    description:
+      "Tortillas rellenas de queso y jamón, dobladas y cocidas hasta derretir el queso.",
+    steps: [
+      "Paso 1: Colocar queso y jamón en una tortilla.",
+      "Paso 2: Doblar y cocinar en una sartén con aceite.",
+      "Paso 3: Cocinar hasta que el queso se derrita.",
+    ],
+  },
+  {
+    id: "09",
+    name: "Smoothie de Frutas",
+    Image: require("../assets/imgs/receta-12.jpg"),
+    rating: "4.8",
+    ingredients: ["Plátano", "Fresas", "Yogur", "Leche", "Miel"],
+    time: "5 min",
+    difficulty: "Easy",
+    calories: "200 cal",
+    color: "bg-pink-300",
+    description:
+      "Bebida refrescante hecha con plátano, fresas, yogur, leche y un toque de miel.",
+    steps: [
+      "Paso 1: Poner todos los ingredientes en una licuadora.",
+      "Paso 2: Licuar hasta obtener una mezcla suave.",
+      "Paso 3: Servir y disfrutar.",
+    ],
+  },
+  {
+    id: "10",
+    name: "Ensalada de Frutas",
+    Image: require("../assets/imgs/receta-13.jpg"),
+    rating: "4.9",
+    ingredients: ["Manzana", "Plátano", "Naranja", "Uvas", "Yogur"],
+    time: "10 min",
+    difficulty: "Easy",
+    calories: "150 cal",
+    color: "bg-green-300",
+    description: "Mezcla fresca de frutas variadas, servida con yogur.",
+    steps: [
+      "Paso 1: Cortar todas las frutas en trozos pequeños.",
+      "Paso 2: Mezclar las frutas en un bol.",
+      "Paso 3: Añadir yogur y mezclar.",
+    ],
+  },
+];
