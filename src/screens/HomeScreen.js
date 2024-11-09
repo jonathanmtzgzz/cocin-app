@@ -17,7 +17,7 @@ const HomeScreen = () => {
       <SearchFilter icon="search" placeholder={"Search for a recipe"} />
 
       {/* Categories */}
-      <View className="mt-5">
+      <View className="">
         {/* <Text className="text-2xl font-bold">Categorias</Text> */}
         {/* Categories Filter */}
         {/* <CategoriesFilter /> */}
