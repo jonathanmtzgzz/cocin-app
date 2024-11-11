@@ -2,19 +2,23 @@
 export const categories = [
   {
     id: 1,
-    category: "Breakfast",
+    category: "Desayuno",
+    Image: require("../../assets/imgs/receta-01.jpg"),
   },
   {
     id: 2,
-    category: "Lunch",
+    category: "Comida",
+    Image: require("../../assets/imgs/receta-02.jpg"),
   },
   {
     id: 3,
-    category: "Dinner",
+    category: "Cena",
+    Image: require("../../assets/imgs/receta-03.png"),
   },
   {
     id: 4,
     category: "Snack",
+    Image: require("../../assets/imgs/receta-04.jpg"),
   },
 ];
 
@@ -23,12 +27,12 @@ export const recipeList = [
   {
     id: "01",
     name: "Tortilla Española",
-    Image: require("../assets/imgs/receta-01.jpg"),
+    Image: require("../../assets/imgs/receta-01.jpg"),
     rating: "4.5",
     ingredients: ["Huevos", "Papas", "Cebolla", "Aceite de Oliva"],
-    time: "30 min",
+    time: "30",
     difficulty: "Easy",
-    calories: "300 cal",
+    calories: "300",
     color: "bg-yellow-200",
     description:
       "La tortilla española es un plato clásico de España hecho con huevos, papas y cebolla, cocinado lentamente en aceite de oliva hasta obtener una textura dorada y jugosa.",
@@ -42,7 +46,7 @@ export const recipeList = [
   {
     id: "02",
     name: "Pizza Margherita",
-    Image: require("../assets/imgs/receta-02.jpg"),
+    Image: require("../../assets/imgs/receta-02.jpg"),
     rating: "4.8",
     ingredients: [
       "Masa de Pizza",
@@ -51,9 +55,9 @@ export const recipeList = [
       "Albahaca",
       "Aceite de Oliva",
     ],
-    time: "20 min",
+    time: "20",
     difficulty: "Medium",
-    calories: "400 cal",
+    calories: "400",
     color: "bg-red-200",
     description:
       "La Pizza Margherita es una pizza tradicional italiana hecha con una base de masa, salsa de tomate, mozzarella fresca y hojas de albahaca, cocinada hasta que el queso esté burbujeante y dorado.",
@@ -68,12 +72,12 @@ export const recipeList = [
   {
     id: "03",
     name: "Sushi",
-    Image: require("../assets/imgs/receta-03.png"),
+    Image: require("../../assets/imgs/receta-03.png"),
     rating: "4.8",
     ingredients: ["Arroz", "Alga Nori", "Pescado Crudo", "Salsa de Soja"],
-    time: "45 min",
+    time: "45",
     difficulty: "Medium",
-    calories: "300 cal",
+    calories: "300",
     color: "bg-green-200",
     description:
       "El sushi es un plato japonés que consiste en arroz aderezado con vinagre acompañado de varios ingredientes, como mariscos, vegetales y, a menudo, pescado crudo.",
@@ -87,12 +91,12 @@ export const recipeList = [
   {
     id: "04",
     name: "Paella",
-    Image: require("../assets/imgs/receta-04.jpg"),
+    Image: require("../../assets/imgs/receta-04.jpg"),
     rating: "4.7",
     ingredients: ["Arroz", "Mariscos", "Pollo", "Azafrán", "Vegetales"],
-    time: "60 min",
+    time: "60",
     difficulty: "Hard",
-    calories: "500 cal",
+    calories: "500",
     color: "bg-yellow-200",
     description:
       "La paella es un plato español de arroz que se cocina tradicionalmente en una sartén ancha y poco profunda, con ingredientes como mariscos, pollo, vegetales y especias.",
@@ -106,7 +110,7 @@ export const recipeList = [
   {
     id: "05",
     name: "Pad Thai",
-    Image: require("../assets/imgs/receta-05.jpg"),
+    Image: require("../../assets/imgs/receta-05.jpg"),
     rating: "4.6",
     ingredients: [
       "Fideos de Arroz",
@@ -115,9 +119,9 @@ export const recipeList = [
       "Salsa de Tamarindo",
       "Maní",
     ],
-    time: "30 min",
+    time: "30",
     difficulty: "Medium",
-    calories: "400 cal",
+    calories: "400",
     color: "bg-orange-200",
     description:
       "El Pad Thai es un plato tailandés que consiste en fideos de arroz salteados con pollo, camarones, huevos, y una mezcla de salsa de tamarindo, salsa de pescado, azúcar de palma y maní tostado.",
@@ -131,12 +135,12 @@ export const recipeList = [
   {
     id: "06",
     name: "Fish and Chips",
-    Image: require("../assets/imgs/receta-06.jpg"),
+    Image: require("../../assets/imgs/receta-06.jpg"),
     rating: "4.4",
     ingredients: ["Pescado", "Papas", "Harina", "Aceite"],
-    time: "25 min",
+    time: "25",
     difficulty: "Easy",
-    calories: "600 cal",
+    calories: "600",
     color: "bg-blue-200",
     description:
       "Fish and Chips es un plato británico que consiste en filetes de pescado rebozados y fritos, acompañados de papas fritas.",
@@ -149,12 +153,12 @@ export const recipeList = [
   {
     id: "07",
     name: "Spaghetti Carbonara",
-    Image: require("../assets/imgs/receta-07.jpg"),
+    Image: require("../../assets/imgs/receta-07.jpg"),
     rating: "4.5",
     ingredients: ["Spaghetti", "Huevos", "Queso Pecorino", "Panceta"],
-    time: "20 min",
+    time: "20",
     difficulty: "Medium",
-    calories: "450 cal",
+    calories: "450",
     color: "bg-pink-200",
     description:
       "La Carbonara es un plato de pasta italiano que se prepara con huevos, queso pecorino y panceta, creando una salsa cremosa y deliciosa.",
@@ -168,12 +172,12 @@ export const recipeList = [
   {
     id: "08",
     name: "Curry de Pollo",
-    Image: require("../assets/imgs/receta-08.jpg"),
+    Image: require("../../assets/imgs/receta-08.jpg"),
     rating: "4.3",
     ingredients: ["Pollo", "Curry", "Leche de Coco", "Vegetales"],
-    time: "35 min",
+    time: "35",
     difficulty: "Medium",
-    calories: "500 cal",
+    calories: "500",
     color: "bg-red-200",
     description:
       "El curry de pollo es un plato popular en muchas cocinas asiáticas, cocinado con una mezcla de especias y leche de coco para un sabor rico y cremoso.",
@@ -186,12 +190,12 @@ export const recipeList = [
   {
     id: "09",
     name: "Falafel",
-    Image: require("../assets/imgs/receta-09.jpg"),
+    Image: require("../../assets/imgs/receta-09.jpg"),
     rating: "4.6",
     ingredients: ["Garbanzos", "Cebolla", "Ajo", "Especias"],
-    time: "25 min",
+    time: "25",
     difficulty: "Easy",
-    calories: "300 cal",
+    calories: "300",
     color: "bg-green-200",
     description:
       "El falafel es un plato del Medio Oriente hecho de garbanzos molidos mezclados con cebolla, ajo y especias, formado en bolas o croquetas y frito.",
@@ -204,12 +208,12 @@ export const recipeList = [
   {
     id: "10",
     name: "Hamburguesa",
-    Image: require("../assets/imgs/receta-10.jpg"),
+    Image: require("../../assets/imgs/receta-10.jpg"),
     rating: "4.7",
     ingredients: ["Carne de Res", "Pan", "Lechuga", "Tomate", "Queso"],
-    time: "20 min",
+    time: "20",
     difficulty: "Easy",
-    calories: "550 cal",
+    calories: "550",
     color: "bg-brown-200",
     description:
       "La hamburguesa es un clásico de la comida rápida, consistiendo en una carne de res molida cocinada y servida en un pan con una variedad de ingredientes como lechuga, tomate y queso.",
@@ -222,12 +226,12 @@ export const recipeList = [
   {
     id: "11",
     name: "Ratatouille",
-    Image: require("../assets/imgs/receta-11.jpg"),
+    Image: require("../../assets/imgs/receta-11.jpg"),
     rating: "4.5",
     ingredients: ["Berenjena", "Calabacín", "Pimiento", "Tomate", "Ajo"],
-    time: "40 min",
+    time: "40",
     difficulty: "Medium",
-    calories: "200 cal",
+    calories: "200",
     color: "bg-yellow-200",
     description:
       "El Ratatouille es un plato tradicional francés que consiste en vegetales cocidos lentamente en aceite de oliva, típicamente berenjena, calabacín, pimiento y tomate.",
@@ -240,12 +244,12 @@ export const recipeList = [
   {
     id: "12",
     name: "Shakshuka",
-    Image: require("../assets/imgs/receta-12.jpg"),
+    Image: require("../../assets/imgs/receta-12.jpg"),
     rating: "4.3",
     ingredients: ["Tomates", "Pimientos", "Huevos", "Cebolla", "Especias"],
-    time: "30 min",
+    time: "30",
     difficulty: "Medium",
-    calories: "350 cal",
+    calories: "350",
     color: "bg-red-200",
     description:
       "La Shakshuka es un plato de Oriente Medio y África del Norte que consiste en huevos escalfados en una salsa de tomate picante con pimientos y cebolla.",
@@ -258,12 +262,12 @@ export const recipeList = [
   {
     id: "13",
     name: "Pho",
-    Image: require("../assets/imgs/receta-13.jpg"),
+    Image: require("../../assets/imgs/receta-13.jpg"),
     rating: "4.7",
     ingredients: ["Fideos de Arroz", "Carne de Res", "Caldo", "Hierbas"],
-    time: "45 min",
+    time: "45",
     difficulty: "Hard",
-    calories: "400 cal",
+    calories: "400",
     color: "bg-blue-200",
     descrption:
       "El Pho es una sopa vietnamita de fideos de arroz con carne de res y hierbas frescas, servida en un caldo aromático.",
@@ -277,7 +281,7 @@ export const recipeList = [
   {
     id: "14",
     name: "Coq au Vin",
-    Image: require("../assets/imgs/receta-14.jpg"),
+    Image: require("../../assets/imgs/receta-14.jpg"),
     rating: "4.8",
     ingredients: [
       "Pollo",
@@ -286,9 +290,9 @@ export const recipeList = [
       "Zanahorias",
       "Cebolla",
     ],
-    time: "90 min",
+    time: "90",
     difficulty: "Hard",
-    calories: "650 cal",
+    calories: "650",
     color: "bg-purple-200",
     descrption:
       "El Coq au Vin es un plato francés clásico que consiste en pollo cocinado a fuego lento en vino tinto con champiñones, zanahorias y cebolla.",
@@ -302,7 +306,7 @@ export const recipeList = [
   {
     id: "15",
     name: "Moussaka",
-    Image: require("../assets/imgs/receta-15.jpg"),
+    Image: require("../../assets/imgs/receta-15.jpg"),
     rating: "4.6",
     ingredients: [
       "Berenjena",
@@ -311,9 +315,9 @@ export const recipeList = [
       "Queso",
       "Bechamel",
     ],
-    time: "75 min",
+    time: "75",
     difficulty: "Medium",
-    calories: "600 cal",
+    calories: "600",
     color: "bg-brown-200",
     descrption:
       "La Moussaka es un plato tradicional griego que consiste en capas de berenjena, carne de cordero, tomate y bechamel, gratinadas con queso.",
