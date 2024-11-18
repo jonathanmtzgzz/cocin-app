@@ -3,7 +3,7 @@ import React from "react";
 import { categories } from "../constants/Constant";
 import Animated, { FadeInDown } from "react-native-reanimated";
 
-export default function Categories(activeCategory, setActiveCategory) {
+export default function Categories({ activeCategory, setActiveCategory }) {
   return (
     <Animated.View entering={FadeInDown.duration(500).springify()}>
       <ScrollView
@@ -21,15 +21,13 @@ export default function Categories(activeCategory, setActiveCategory) {
               onPress={() => setActiveCategory(cat.category)}
               className="flex items-center space-y-1"
             >
-              <View className={"rounded-full p-[6px]" + activeButtonClass}>
+              <View className={"rounded-lg p-[6px] " + activeButtonClass}>
                 <Image
                   source={cat.Image}
-                  style={{ height: 60, width: 60, borderRadius: 100 }}
+                  style={{ height: 60, width: 60, borderRadius: 10 }}
                 />
               </View>
-              <Text className="text-neutral-600 text-sm ml-2">
-                {cat.category}
-              </Text>
+              <Text className="text-neutral-600 text-sm">{cat.category}</Text>
             </TouchableOpacity>
           );
         })}
