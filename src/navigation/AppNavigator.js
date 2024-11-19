@@ -2,9 +2,10 @@ import * as React from "react";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import AuthNavigator from "./AuthNavigator";
-import HomeNavigator from "./HomeNavigator";
+// import HomeNavigator from "./HomeNavigator";
 import WelcomeScreen from "../screens/WelcomeScreen";
-import RecipeDetailsScreen from "../screens/RecipeDetailsScreen";
+import RecipeDetailScreen from "../screens/RecipeDetailScreen";
+import HomeScreen from "../screens/HomeScreen";
 
 const Stack = createStackNavigator();
 
@@ -23,12 +24,12 @@ const AppNavigator = () => {
       />
       <Stack.Screen
         name="Home"
-        component={HomeNavigator}
+        component={HomeScreen}
         options={{ headerShown: false }}
       />
       <Stack.Screen
         name="RecipeDetail"
-        component={RecipeDetailsScreen}
+        component={RecipeDetailScreen}
         options={{ headerShown: false }}
       />
     </Stack.Navigator>
